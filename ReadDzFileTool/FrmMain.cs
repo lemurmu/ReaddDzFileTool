@@ -21,6 +21,7 @@ namespace ReadDzFileTool {
         internal Bitmap Bmp;
         string tgaDir = "";
         TreeNode selectNode;
+        int index = 0;
         private void Button1_Click(object sender, EventArgs e) {
             this.openFileDialog.Filter = "dz文件(*.dz)|*.dz";
             if (this.openFileDialog.ShowDialog() == DialogResult.OK) {
@@ -43,6 +44,7 @@ namespace ReadDzFileTool {
                     this.richTextBox1.AppendText("act解压-->失败!!\r\n");
             }
             else {
+                index = 0;
                 this.richTextBox1.AppendText($"准备解压dz文件-->{fileName}\r\n");
                 bool flag = ReadHelper.ReadDzFile(sb);
                 if (flag) {
@@ -82,6 +84,7 @@ namespace ReadDzFileTool {
                     if (Bmp != null) Bmp.Dispose();
                     Bmp = (Bitmap)FreeImageToBitmap.LoadImageFormFreeImage(tgaDir + "\\" + tag);
                     if (Bmp != null) {
+                        this.pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
                         this.pictureBox1.Image = Bmp;
                         selectNode = e.Node;
                     }
@@ -140,6 +143,31 @@ namespace ReadDzFileTool {
             if (destFileInfo.Exists)
                 destFileInfo.Delete();
             selectNode.Remove();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (index == this.treeView.Nodes[0].Nodes.Count - 1)
+                index = 0;
+            TreeNode node = this.treeView.Nodes[0].Nodes[index];
+            string tag = node.Tag as string;
+            Bmp = (Bitmap)FreeImageToBitmap.LoadImageFormFreeImage(tgaDir + "\\" + tag);
+            if (Bmp != null)
+            {
+                this.pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+                this.pictureBox1.Image = Bmp;
+            }
+            index++;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
         }
     }
 }
