@@ -1,0 +1,11 @@
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileTool.exe.config
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileTool.exe
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileTool.pdb
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.FrmMain.resources
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.Properties.Resources.resources
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.csproj.GenerateResource.cache
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.csproj.CoreCompileInputs.cache
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.exe
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.pdb
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.csprojAssemblyReference.cache
+F:\Project\c#\ReadDzFileTool\ReadDzFileTool\obj\Debug\ReadDzFileTool.FrmRename.resources

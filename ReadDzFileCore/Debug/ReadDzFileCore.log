@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  CY_Compress.cpp
+  dllmain.cpp
+  ReadHelper.cpp
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(246): warning C4244: “=”: 从“DWORD”转换到“byte”，可能丢失数据
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(248): warning C4244: “=”: 从“DWORD”转换到“byte”，可能丢失数据
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(163): warning C4101: “pSouData”: 未引用的局部变量
+  正在生成代码...
+    正在创建库 F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileCore.lib 和对象 F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileCore.exp
+  ReadDzFileCore.vcxproj -> F:\Project\c#\ReadDzFileTool\ReadDzFileTool\bin\Debug\ReadDzFileCore.dll

@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  CY_Compress.cpp
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(35): error C2664: “DWORD GetCurrentDirectoryW(DWORD,LPWSTR)”: 无法将参数 2 从“char [200]”转换为“LPWSTR”
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(35): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(39): error C2664: “HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)”: 无法将参数 1 从“const char [6]”转换为“LPCWSTR”
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(39): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(48): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“WCHAR [260]”转换为“const char *”
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(48): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(86): error C2664: “BOOL SetCurrentDirectoryW(LPCWSTR)”: 无法将参数 1 从“const char [4]”转换为“LPCWSTR”
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(86): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(115): error C2664: “BOOL SetCurrentDirectoryW(LPCWSTR)”: 无法将参数 1 从“const char *”转换为“LPCWSTR”
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\CY_Compress.cpp(115): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  dllmain.cpp
+  ReadHelper.cpp
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(18): warning C4603: “SAFE_DELETE”: 未定义宏或在预编译头使用后定义发生改变
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(18): note: 将宏添加到预编译头中，而不是在此处定义
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(232): note: 使用预编译头
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(19): warning C4603: “SAFE_DELETE_ARRAY”: 未定义宏或在预编译头使用后定义发生改变
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(19): note: 将宏添加到预编译头中，而不是在此处定义
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(232): note: 使用预编译头
+F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(20): warning C4603: “SAFE_RELEASE”: 未定义宏或在预编译头使用后定义发生改变
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(20): note: 将宏添加到预编译头中，而不是在此处定义
+  F:\Project\c#\ReadDzFileTool\ReadDzFileCore\ReadHelper.cpp(232): note: 使用预编译头
+  正在生成代码...
