@@ -1,0 +1,10 @@
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\bin\Debug\TgaImageTool.exe.config
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\bin\Debug\TgaImageTool.exe
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\bin\Debug\TgaImageTool.pdb
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.csprojAssemblyReference.cache
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.Properties.Resources.resources
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.csproj.GenerateResource.cache
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.csproj.CoreCompileInputs.cache
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.exe
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.pdb
+F:\Project\C#\ReaddDzFileTool\TgaImageTool\obj\Debug\TgaImageTool.FrmMain.resources
